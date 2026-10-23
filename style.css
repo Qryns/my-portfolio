@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+header{
+padding:100px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:50px;
+color:#00d4ff;
+margin-bottom:15px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:50px;
+}
+
+.card{
+background:#1a1a1a;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+margin-bottom:15px;
+color:#00d4ff;
+}
+
+.card p{
+margin-bottom:20px;
+line-height:1.7;
+}
+
+.card a{
+display:inline-block;
+padding:12px 25px;
+background:#00d4ff;
+color:#000;
+border-radius:40px;
+font-weight:600;
+text-decoration:none;
+}
+
+.contact{
+text-align:center;
+padding:100px 20px;
+}
